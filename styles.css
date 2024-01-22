@@ -7,6 +7,7 @@ html {
 
 body {
     margin: 0;
+    height: 100%;
 }
 
 #navBar {
@@ -64,4 +65,44 @@ body {
 
 .portfolio img {
     padding-right: 1em;
+}
+
+
+#contact {
+    width: 50%;
+    background-color: #000000;
+    padding: 0.5em;
+}
+
+#contact {
+    height: 100%;
+    width: 50%;
+    background-color: #000000;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+#contact div{
+    padding: 1em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+}
+
+#contact input {
+    height: 2em;
+    width: 30em;
+}
+
+#contact textarea {
+    height: 4em;
+    width: 30em;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+
+#contact h3 {
+    text-align: center;
 }
