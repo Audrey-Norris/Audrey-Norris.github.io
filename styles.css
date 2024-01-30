@@ -12,6 +12,8 @@ html {
 }
 
 body {
+    background-color: #282828 !important;
+    color: #FFFFFF !important;
     margin: 0;
     height: 100%;
 }
@@ -93,13 +95,6 @@ body {
 
 .portfolio img {
     padding-right: 1em;
-}
-
-
-#contact {
-    width: 50%;
-    background-color: #000000;
-    padding: 0.5em;
 }
 
 #contact {
