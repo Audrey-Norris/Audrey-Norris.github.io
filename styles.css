@@ -1,6 +1,14 @@
 @font-face {
     font-family: 'Script';
-    src: url(ShadowsIntoLight-Regular.ttf);
+    src: url(Kalam-Regular.ttf);
+}
+@font-face {
+    font-family: 'ScriptBold';
+    src: url(Kalam-Bold.ttf);
+}
+@font-face {
+    font-family: 'ScriptLight';
+    src: url(Kalam-Light.ttf);
 }
 
 html {
@@ -162,4 +170,5 @@ body {
 .btn {
     background-color: #000000 !important;
     width: 60% !important;
+    color: #FFFFFF !important;
 }
