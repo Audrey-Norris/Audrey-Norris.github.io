@@ -16,22 +16,26 @@
 </head>
 
 <body>
-  <div id="navBar">
-    <div id="leftSide">
-      <a href="index.html">
-        <h1>Audrey Norris - Programmer/Designer</h1>
-      </a>
+  <nav id="navBar" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a id="navBrand" class="navbar-brand fs-2" href="index.html">Audrey Norris - Software Dev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:audreynorris@u.boisestate.edu?subject=Feedback&body=Message"><i class="far fa-envelope"></i></a>              </li>
+        </ul>
+      </div>
     </div>
-    <div id="rightSide">
-      <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://sites.google.com/view/audreynorrisportfolio">Old Portfolio</a></li>
-        <li><a href="mailto:audreynorris@u.boisestate.edu?subject = Feedback&body = Message"><i
-              class="fa-regular fa-envelope"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <div id="mainBody">
+  </nav>
     <div class="container-fluid">
     <div class="text-center">
       <h1>Arcanic</h1>
@@ -42,19 +46,19 @@
 
     <hr/>
     <div class="row">
-      <div id="dinoDiceCarousel" class="carousel slide col-6" data-bs-ride="carousel">
+      <div id="dinoDiceCarousel" class="carousel slide col-md-6" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/Engot.jpg" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/Engot.jpg" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/GubbyV1.jpg" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/GubbyV1.jpg" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/WrenchFront.jpg" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/WrenchFront.jpg" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/WrenchBack.jpg" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/WrenchBack.jpg" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#dinoDiceCarousel" data-bs-slide="prev">
@@ -66,7 +70,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <p>
             Arcanic was the second game that my partner and I competed with in the SkillsUSA State and National competitions. In this game you play as Wrench an Inxo protector of ancient magical relics and while on patrol one day a villain tries to steal them! Wrench tries to fight the villain to get them back but the artifacts react and teleport them both to a previously unknown island. It's now up to Wrench to get the relics back and stop the villain before it's to late.
             In this game I was the primary designer and lead a team of designers who assisted me with different aspects of the UI and character design. My partner and I worked on the actual game mechanics and concept together.
@@ -116,7 +120,6 @@
       <p>
         This game was a challenge because I had a lot of characters and items to create for the game in a style I hadn't attempted before. In addition to that I was the primary person in charge of our two designers, one sound artist and our video producer on top of everything else. I had to create a system of accountability though timesheets with our team and make sure to check in with them often enough to make sure things were getting done. I learned a lot about managing a team through this and I think it was a very helpful experience. The other challenge for this project was just learning Substance Painter 3D since I had never used it before. I did a couple tutorials and then just started experimenting with the characters until I found what worked for this project. </p>
     </div>
-  </div>
   </div>
   <script>
     var coll = document.getElementsByClassName("collapsible");

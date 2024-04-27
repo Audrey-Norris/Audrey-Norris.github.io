@@ -16,22 +16,26 @@
 </head>
 
 <body>
-  <div id="navBar">
-    <div id="leftSide">
-      <a href="index.html">
-        <h1>Audrey Norris - Programmer/Designer</h1>
-      </a>
+  <nav id="navBar" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a id="navBrand" class="navbar-brand fs-2" href="index.html">Audrey Norris - Software Dev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:audreynorris@u.boisestate.edu?subject=Feedback&body=Message"><i class="far fa-envelope"></i></a>              </li>
+        </ul>
+      </div>
     </div>
-    <div id="rightSide">
-      <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://sites.google.com/view/audreynorrisportfolio">Old Portfolio</a></li>
-        <li><a href="mailto:audreynorris@u.boisestate.edu?subject = Feedback&body = Message"><i
-              class="fa-regular fa-envelope"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <div id="mainBody">
+  </nav>
     <div class="container-fluid">
     <div class="text-center">
       <h1>Dino Dice</h1>
@@ -43,19 +47,19 @@
 
     <hr/>
     <div class="row">
-      <div id="dinoDiceCarousel" class="carousel slide col-6" data-bs-ride="carousel">
+      <div id="dinoDiceCarousel" class="carousel slide col-md-6" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/Dino1.png" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/Dino1.png" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/Dino2.png" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/Dino2.png" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/Dino3.png" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/Dino3.png" class="d-block w-100 img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/Dino4.png" class="d-block w-100 img-fluid" alt="...">
+            <img src="images/Dino4.png" class="d-block w-100 img-fluid " alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#dinoDiceCarousel" data-bs-slide="prev">
@@ -67,7 +71,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <p>
           Dino Dice is the first project I worked on during my internship at Nerdy Dragon. The goal of the project was
           to create a virtual version of some math exercises DMTI
@@ -127,7 +131,6 @@
         score on a level and then it rewrites that key's information in the JSON storage.
       </p>
     </div>
-  </div>
   </div>
   <script>
     var coll = document.getElementsByClassName("collapsible");
