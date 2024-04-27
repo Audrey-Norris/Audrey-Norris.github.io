@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <!--
+
+
     <div id="navBar" class="sticky-top">
         <div id="leftSide">
             <a href="index.html">
@@ -34,6 +37,31 @@
             <h5>I'm a passionate programmer and game designer who has experience with art and programming.</h5>
         </div>
     </div>
+        -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <h1>Audrey Norris</h1>
+                <h4>Programmer/Designer</h4>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     <div id="mainBody">
         <div id="header">
             <img src="images/profilepic.jpg" class="img-fluid w-25" alt="Audrey Norris">
@@ -51,7 +79,7 @@
                     Outside of work I like playing videogames, reading,
                     writing, and drawing. I also enjoy learning leadership and
                     serve as the current National College/Postsecondary President for
-                    SkillsUSA Idaho.
+                    SkillsUSA.
 
                 </p>
                 <p>
@@ -135,6 +163,7 @@
                     </ul>
                 </div>
             </div>
+            <br/>
             <button type="button" class="collapsible">Projects</button>
             <div class="collapse">
                 <h1>Projects</h1>
@@ -149,7 +178,8 @@
                             It is now available on the Apple Store and will be available on Google Play soon.
                         </p>
                         <div class="container-fluid">
-                            <div>
+                            <div class="row d-flex justify-content-center">
+                               <div class="col-4">
                                 <h3>Software Used</h3>
                                 <ul>
                                     <li>Construct 3</li>
@@ -157,22 +187,25 @@
                                     <li>X-Code</li>
                                 </ul>
                             </div>
-                            <div>
+                            <div class="col-3">
                                 <h3>Skills Used</h3>
                                 <ul>
                                     <li>Construct 3</li>
                                     <li>Paint 3D</li>
                                     <li>X-Code</li>
                                 </ul>
+                            </div> 
                             </div>
-                            <button class="btn btn-primary"><a href="dino.html" >View Full Page</a></button>
+                            <div class="text-center">
+                                <button class="btn btn-primary"><a href="dino.html" >View Full Page</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br />
                 <hr />
                 <br />
-                <div class="portfolio">
+                <div class="portfolio pb-3">
                     <img src="images/WrenchFront.jpg" class="img-fluid w-50">
                     <div>
                         <h2>Arcanic</h2>
@@ -182,7 +215,8 @@
                             Arcanic won 1st place at the state level and then went on to get 1st place at the national level for our competition.
                         </p>
                         <div class="container-fluid">
-                            <div>
+                            <div class="row d-flex justify-content-center">
+                            <div class="col-4">
                                 <h3>Software Used</h3>
                                 <ul>
                                     <li>Illustrator</li>
@@ -190,13 +224,17 @@
                                     <li>Adobe Substance Painter 3D </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div class="col-3">
                                 <h3>Skills Used</h3>
                                 <ul>
                                     <li>3D Modeling</li>
                                     <li>Illustration</li>
                                     <li>Brainstorming</li>
                                 </ul>
+                            </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary"><a href="arcanic.html" >View Full Page</a></button>
                             </div>
                         </div>
                     </div>
@@ -206,6 +244,7 @@
     </div>
 
     <script>
+        /*
         var coll = document.getElementsByClassName("collapsible");
         var i;
 
@@ -220,7 +259,7 @@
                 }
             });
         }
-
+        */
     </script>
 </body>
 

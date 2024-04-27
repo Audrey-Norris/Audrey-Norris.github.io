@@ -172,3 +172,20 @@ body {
     width: 60% !important;
     color: #FFFFFF !important;
 }
+
+.btn-primary {
+    background-color: #940000 !important;
+    color: #FFFFFF !important;
+    border-color: #940000 !important;
+}
+
+.btn-primary a{
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+#app-button button {
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 15em !important;
+}
