@@ -5,39 +5,20 @@
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Audrey Norris</title>
+    <link rel="preload" as="image" href="images/profilepic.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous" defer>
+    </script>
 </head>
 
 <body>
-    <!--
-    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container">
-            <a class="navbar-brand " href="index.html">Audrey Norris - Programmer/Designer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://sites.google.com/view/audreynorrisportfolio">Old Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:audreynorris@u.boisestate.edu?subject=Feedback&body=Message"><i class="far fa-envelope"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    -->
-
     <nav id="navBar" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <a id="navBrand" class="navbar-brand fs-2" href="#">Audrey Norris - Software Dev</a>
@@ -50,6 +31,9 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link disabled" href="contact.html">Contact</a>
               </li>
               <li class="nav-item">
@@ -60,7 +44,7 @@
       </nav>
 
     <div id="Banner">
-        <img src="images/Banner.gif" class="img-fluid" alt="Banner">
+        <img src="images/Banner.gif" width='560' height='240' class="img-fluid" alt="Banner">
         <div class="container-fluid">
             <h1 class="fontAdjust">Audrey Norris</h1>
             <h4 class="fontAdjust">Programmer/Designer</h4>
@@ -72,7 +56,7 @@
     <div class="container-fluid pt-3">
         <div id="header" class="row">
             <div class="col-md-3">
-                <img src="images/profilepic.jpg" class="img-fluid w-100" alt="Audrey Norris">
+                <img src="images/profilepic.jpg" width="1730" height="1730" class="img-fluid w-100" alt="Audrey Norris">
             </div>
             <div class="col-md-9">
                 <h1>Audrey Norris</h1>
@@ -93,201 +77,62 @@
                 <p>
                     Below is my skills and experiences from my work over the years.
                 </p>
+                <br/>
+                <br/>
+                <br/>
+                <div class="text-center">
+                    <button class="btn btn-primary"><a href="resume.html">Resume</a></button>
+                </div>
+
             </div>
         </div>
         <hr />
-        <div id="resume">
-            <button type="button" class="collapsible">Resume</button>
-            <div class="collapseC">
-                <div>
-                    <h2>Education</h2>
-                    <ul>
-                        <li>CTE High School Diploma - Meridian Technical Charter 2022</li>
-                        <li>Bachelor of Science Degree in GIMM - Boise State University 2026</li>
-                    </ul>
-                </div>
-                <hr />
-                <div>
-                    <h2>Skills</h2>
-                    <h4>Programming Languages</h4>
-                    <ul>
-                        <li>C#</li>
-                        <li>Java</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                    <h4>Engines</h4>
-                    <ul>
-                        <li>Unity</li>
-                        <li>Construct 3</li>
-                    </ul>
-                    <h4>Adobe Software</h4>
-                    <ul>
-                        <li>Illustrator</li>
-                        <li>Photoshop</li>
-                        <li>Substance Painter</li>
-                    </ul>
-                </div>
-                <hr />
-                <div>
-                    <h2>Experience</h2>
-                    <ul>
-                        <li>Software Developer and Intern • Nerdy Dragon • January 2022-Present</li>
-                        <li>Code Sensei • Code Ninjas • August 2020-Present</li>
-                    </ul>
-                </div>
-                <hr />
-                <div>
-                    <h2>Certifications</h2>
-                    <ul>
-                        <li>OSHA 10 Hour General Industry - 2021</li>
-                        <li>Microsoft Office Specialist: Excel, Word and PowerPoint - 2021</li>
-                        <li>Introduction To Programming Using HTML and CSS - 2020</li>
-                        <li>IC3 Digital Literacy - 2019</li>
-                    </ul>
-                </div>
-                <hr />
-                <div>
-                    <h2>Extracuriculars</h2>
-                    <h4>Boise State Esports Arena</h4>
-                    <ul>
-                        <li>Esports Shout Caster - 2022-2023</li>
-                    </ul>
-                    <h4>SkillsUSA</h4>
-                    <ul>
-                        <li>National College/PostSecondary President 2023-2024</li>
-                        <li>Idaho Post Secondary State President 2022-2023</li>
-                        <li>Idaho High School State President 2021-2022</li>
-                        <li>Local Chapter President 2020-2021</li>
-                        <li>Local Chapter Secretary 2019-2020</li>
-                    </ul>
-                    <h4>Student Government</h4>
-                    <ul>
-                        <li>Grade Level Representative 2018-2022</li>
-                        <li>Local Vice President 2020-2021</li>
-                    </ul>
-                </div>
-            </div>
-            <br />
-            <button type="button" class="collapsible">Projects</button>
-            <div class="collapseC">
-                <h1>Projects</h1>
-                <div class="portfolio container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/DinoDice.png" class="img-fluid w-100">
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Dino Dice</h2>
-                            <p>
-                                Dino Dice is the first project I worked on during my internship at Nerdy Dragon. The
-                                goal of the project was to create a virtual version of some
-                                math exercises DMTI had created. I created this project in Construct 3 and was the sole
-                                programmer and game designer for this project.
-                                I did not create the graphics for this game but I did create the sounds that play when
-                                you get and answer right or wrong.
-                                It is now available on the Apple Store and will be available on Google Play soon.
-                            </p>
-                            <div class="container-fluid">
-                                <div class="row d-flex justify-content-center">
-                                    <div class="col-md-6">
-                                        <h3>Software Used</h3>
-                                        <ul>
-                                            <li>Construct 3</li>
-                                            <li>Paint 3D</li>
-                                            <li>X-Code</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3>Skills Used</h3>
-                                        <ul>
-                                            <li>Construct 3</li>
-                                            <li>Paint 3D</li>
-                                            <li>X-Code</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <button class="btn btn-primary"><a href="dino.html">View Full Page</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <br />
-                <hr />
-                <br />
-                <div class="portfolio pb-3 container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/WrenchFront.jpg" class="img-fluid w-100">
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Arcanic</h2>
-                            <p>
-                                Arcanic was the second game that my partner and I competed with in the SkillsUSA State
-                                and National competitions. In this game you play as Wrench an Inxo protector of ancient
-                                magical relics and while on patrol one day a villain tries to steal them! Wrench tries
-                                to fight the villain to get them back but the artifacts react and teleport them both to
-                                a previously unknown island. It's now up to Wrench to get the relics back and stop the
-                                villain before it's to late. <br />
-                                In this game I was the primary designer and lead a team of designers who assisted me
-                                with different aspects of the UI and character design. My partner and I worked on the
-                                actual game mechanics and concept together. <br />
-                                Arcanic won 1st place at the state level and then went on to get 1st place at the
-                                national level for our competition.
-                            </p>
-                            <div class="container-fluid">
-                                <div class="row d-flex justify-content-center">
-                                    <div class="col-md-6">
-                                        <h3>Software Used</h3>
-                                        <ul>
-                                            <li>Illustrator</li>
-                                            <li>Maya</li>
-                                            <li>Adobe Substance Painter 3D </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3>Skills Used</h3>
-                                        <ul>
-                                            <li>3D Modeling</li>
-                                            <li>Illustration</li>
-                                            <li>Brainstorming</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <button class="btn btn-primary"><a href="arcanic.html">View Full Page</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+        <div class="text-center">
+            <h3>Portfolio Pieces</h3>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/DinoDice.png" width="1024" height="500" class="d-block img-fluid w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h3 class="carouselFont">Dino Dice: +,-</h3>
+                    <h4 class="carouselFont">A Mobile Educational Math Game Developed in Contruct 3</h4>
+                    <button class="btn btn-primary"><a href="dino.html">View Full Page</a></button>
+                </div>              
+            </div>
+              <div class="carousel-item">
+                <img src="images/WrenchFront.jpg" width="1024" height="500" class="d-block img-fluid w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h3 class="carouselFont">Arcanic</h1>
+                    <h4 class="carouselFont">A Unity Game that took 1st Place in the SkillsUSA National Competitions</h3>
+                    <button class="btn btn-primary"><a href="arcanic.html">View Full Page</a></button>
+                </div>   
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
-                });
-            }
-        </script>
+        <footer>
+            <div class="container-fluid text-center">
+                <div class="row ">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-linkedin p-3 fs-3"></i>
+                        <a class="p-3" href="mailto:audreynorris@u.boisestate.edu?subject=Feedback&body=Message"><i class="far fa-envelope fs-3"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <p class="m-0 pb-2"><i>&copy; 2023 Copyright Audrey Norris</i></p>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>

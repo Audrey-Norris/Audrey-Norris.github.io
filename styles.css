@@ -1,13 +1,16 @@
 @font-face {
     font-family: 'Script';
+    font-display: 'Swap' ;
     src: url(Kalam-Regular.ttf);
 }
 @font-face {
     font-family: 'ScriptBold';
+    font-display: 'Swap' ;
     src: url(Kalam-Bold.ttf);
 }
 @font-face {
     font-family: 'ScriptLight';
+    font-display: 'Swap' ;
     src: url(Kalam-Light.ttf);
 }
 
@@ -24,6 +27,17 @@ body {
     color: #FFFFFF !important;
     margin: 0;
     height: 100%;
+}
+
+#projectCarousel {
+    padding: 5em !important;
+    padding-top: 0.5em !important;
+}
+
+footer {
+    background-color: #000000 !important;
+    width: 100%;
+    margin:0;
 }
 
 #navBar {
@@ -76,7 +90,7 @@ body {
 }
 
 #Banner img {
-    width: 100%;
+    width: 100% !important;
 }
 
 #Banner div {
@@ -146,11 +160,13 @@ body {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    height: 3.5em;
+    font-size: 1.5rem;
+    margin-top: 0.4em;
 }
 
 .active, .collapsible:hover {
-    background-color: #000000;
+    background-color: #640000;
 }
 
 .collapseC {
@@ -158,6 +174,7 @@ body {
     display: none;
     overflow: hidden;
     background-color: #000000;
+    
 }
 
 #contact-img {
@@ -188,8 +205,25 @@ body {
     width: 15em !important;
 }
 
+.carouselFont {
+    font-size: 1.6rem;
+    text-shadow: 1px 3px 2px black;
+}
 
-@media screen and (max-width: 400px) {
+#resume {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #projectCarousel {
+        padding: 0em !important;
+    }
+    
     #navBrand {
         font-size: 5.5vw !important;
     }
