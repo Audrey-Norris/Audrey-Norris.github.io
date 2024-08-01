@@ -1,0 +1,37 @@
+
+.topContent {
+    background-color: #940000;
+    text-align: center;
+    padding: 1em;
+}
+
+.mainContent {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+}
+
+.badge-img {
+    height: 288px;
+    width: 288px;
+}
+
+.card-img-overlay {
+    height: 100%;
+}
+
+.card-text {
+    color: #FFFFFF !important;
+    background-color: #5a5a5aaf;
+    padding: 2em;
+    width: 80%;
+}
+
+.aeroImg {
+    width: 80%;
+    padding-top: 2%;
+}
+
+.topContent a {
+   text-decoration: none;
+   color:  #FFFFFF; 
+}
